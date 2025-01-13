@@ -39,7 +39,7 @@ source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 
 ```
-### Download your trained model (if applicable) and place it in the appropriate directory.
+
 ### Run the application
 ```bash
 python ir.py
