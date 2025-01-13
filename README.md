@@ -61,17 +61,19 @@ SalientLens provides an intuitive web interface powered by Gradio. To get starte
 ## Overview
 ### Upload Page (Gradio Web Interface)
 The Gradio interface is designed for simplicity. You upload an image, and the tool gives you predictions along with saliency maps that show which parts of the image are most influential for classification.
+
 ![image](https://github.com/user-attachments/assets/943a8756-ab65-4353-a3cf-7642d7ff41b0)
 
 ### Results Page (Saliency Map Visualization)
 The saliency map visualizes the areas of the image the model deems most important for prediction. This helps users understand which features the model is focusing on, improving transparency and trust in AI models.
+
 ![image](https://github.com/user-attachments/assets/5ddd1205-e475-4e12-afe0-3c05ba130517)
 ![image](https://github.com/user-attachments/assets/78077ca5-6b3a-4f61-9af4-6895673a7839)
 
 
 ## Endpoints
 
-### web Interface
+### Web Interface
 - Input: Image file upload (JPG, PNG, etc.)
 - Output: Predicted class and corresponding saliency map.
 
